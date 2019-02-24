@@ -1,13 +1,13 @@
 # Redis module provides you connection to Redis server
 
 ![Codecov](https://img.shields.io/codecov/c/github/go-helium/redis.svg?style=flat-square)
-![CircleCI (all branches)](https://img.shields.io/circleci/project/github/go-helium/redis.svg?style=flat-square)
+[![Build Status](https://travis-ci.com/go-helium/redis.svg?branch=master)](https://travis-ci.com/go-helium/redis)
 [![Report](https://goreportcard.com/badge/github.com/go-helium/redis)](https://goreportcard.com/report/github.com/go-helium/redis)
 [![GitHub release](https://img.shields.io/github/release/go-helium/redis.svg)](https://github.com/go-helium/redis)
 ![GitHub](https://img.shields.io/github/license/go-helium/redis.svg?style=popout)
 
 Module provides you connection to Redis server
-- `*redis.Client` is a Redis client representing a pool of zero or more underlying connections. It's safe for concurrent use by multiple goroutines
+- `*redis.Client` is a Redis client representing a pool of zero or more underlying connections. It's safe for concurrent use by multiple goroutineshttps://img.shields.io/circleci/project/github/go-helium/redis.svg?style=flat-square
 
 Configuration:
 - yaml example
